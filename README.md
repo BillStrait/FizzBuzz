@@ -3,7 +3,7 @@ BBY Sample Application
 This is a sample application. The requirements were to receive an array of arbitrary objects and create output if the object was 
 1) an intiger 
 2) divisible by 3
-3) Divisible by 5
+3) divisible by 5
 4) divisible by 3 and 5.
 
 All business logic is in the index method of homecontroller.cs
