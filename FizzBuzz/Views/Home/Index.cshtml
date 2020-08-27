@@ -1,0 +1,20 @@
+﻿@model FizzBuzz.Models.FizzBuzzOutput
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    Does your number fizz or does it buzz? There's only one way to find out! Pass an array of integers to this page with the i argument supplied for your numbers. For example ?i=1&i=2&i=3.
+</div>
+
+
+<div>
+    @if (Model?.Results?.Any() == true)
+    {
+        foreach (var answer in Model.Results)
+        {
+            <span class="resultDisplayItem">@answer</span><br />
+        }
+    }
+</div>
